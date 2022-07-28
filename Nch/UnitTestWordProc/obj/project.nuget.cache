@@ -1,0 +1,310 @@
+{
+  "version": 2,
+  "dgSpecHash": "N4w1sXwiiA8Bi6Kdap6pFc4qm32f6R5MINGdguRaLIoF+irOEczAKEXimF7Hym2edpzUjNvvuD7BIDtvflAI/w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\WordProcessing-master\\UnitTestWordProc\\UnitTestWordProc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.net.test.sdk\\16.8.0\\microsoft.net.test.sdk.16.8.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mstest.testadapter\\2.1.2\\mstest.testadapter.2.1.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\nunit3testadapter\\3.13.0\\nunit3testadapter.3.13.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.textwritertracelistener\\4.3.0\\system.diagnostics.textwritertracelistener.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UnitTestWordProc зависит от Microsoft.NET.Test.Sdk (>= 15.8.0), но Microsoft.NET.Test.Sdk 15.8.0 не найден. Использовано наилучшее приближенное соответствие Microsoft.NET.Test.Sdk 16.8.0.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "System.Diagnostics.TraceSource 4.3.0 зависит от Microsoft.NETCore.Platforms (>= 1.1.0), но Microsoft.NETCore.Platforms 1.1.0 не найден. Использовано наилучшее приближенное соответствие Microsoft.NETCore.Platforms 3.1.0.",
+      "libraryId": "Microsoft.NETCore.Platforms",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UnitTestWordProc зависит от MSTest.TestAdapter (>= 1.3.2), но MSTest.TestAdapter 1.3.2 не найден. Использовано наилучшее приближенное соответствие MSTest.TestAdapter 2.1.2.",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UnitTestWordProc зависит от MSTest.TestFramework (>= 1.3.2), но MSTest.TestFramework 1.3.2 не найден. Использовано наилучшее приближенное соответствие MSTest.TestFramework 2.1.2.",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "UnitTestWordProc зависит от NUnit3TestAdapter (>= 3.11.0), но NUnit3TestAdapter 3.11.0 не найден. Использовано наилучшее приближенное соответствие NUnit3TestAdapter 3.13.0.",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет NUnit. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.NETCore.App. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Moq. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Moq",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.TestPlatform.TestHost. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.TestPlatform.TestHost",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.CodeCoverage. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.CodeCoverage",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.DotNet.InternalAbstractions. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.DotNet.InternalAbstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Diagnostics.Process. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Diagnostics.Process",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Threading.Thread. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Threading.Thread",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Xml.XPath.XmlDocument. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Xml.XPath.XmlDocument",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.ComponentModel.EventBasedAsync с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.0.11 ]",
+      "libraryId": "System.ComponentModel.EventBasedAsync",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.ComponentModel.TypeConverter с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 4.1.0 ]",
+      "libraryId": "System.ComponentModel.TypeConverter",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Reflection с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.1.0 ]",
+      "libraryId": "System.Reflection",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Runtime.InteropServices.RuntimeInformation с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 4.0.0 ]",
+      "libraryId": "System.Runtime.InteropServices.RuntimeInformation",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Xml.XmlDocument с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 4.0.1 ]",
+      "libraryId": "System.Xml.XmlDocument",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.Extensions.CommandLineUtils. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.CommandLineUtils",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.EntityFrameworkCore.SqlServer. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Unity. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Unity",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет NETStandard.Library с версией (>= 1.6.1)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 1.6.0 ]",
+      "libraryId": "NETStandard.Library",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Globalization с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.0.11 ]",
+      "libraryId": "System.Globalization",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.IO с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.1.0 ]",
+      "libraryId": "System.IO",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Resources.ResourceManager с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.0.1 ]",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Runtime с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.1.0 ]",
+      "libraryId": "System.Runtime",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Threading с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.0.11 ]",
+      "libraryId": "System.Threading",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет runtime.native.System с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 4.0.0 ]",
+      "libraryId": "runtime.native.System",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Collections с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.0.11 ]",
+      "libraryId": "System.Collections",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Diagnostics.Debug с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.0.11 ]",
+      "libraryId": "System.Diagnostics.Debug",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет System.Runtime.Extensions с версией (>= 4.3.0)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (2) [ Ближайшая версия: 4.1.0 ]",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

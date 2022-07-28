@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "R7CS3E2W+lKj/BwRhns0JPb2b4lzDOsroZQXKJRM/smoCYYGlyHNBLsyPIXQ/9kmXzvlfKGhcurqB7tXeCLf9w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\WordProcessing-master\\BLLWordProc\\BLLWordProc.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет NETStandard.Library с версией (>= 2.0.3)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 1.6.0 ]",
+      "libraryId": "NETStandard.Library",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.EntityFrameworkCore.SqlServer. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
